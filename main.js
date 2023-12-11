@@ -1,930 +1,910 @@
-function _0xca0f(_0x2d1a10, _0x376c52) {
-  const _0x2f179f = _0x2f17();
+function _0xa8de(_0x324ff6, _0x17c0b2) {
+  const _0xd3e5c5 = _0xd3e5();
   return (
-    (_0xca0f = function (_0xca0f17, _0x9d8afa) {
-      _0xca0f17 = _0xca0f17 - 0x13b;
-      let _0x42d058 = _0x2f179f[_0xca0f17];
-      return _0x42d058;
+    (_0xa8de = function (_0xa8dec7, _0x24881a) {
+      _0xa8dec7 = _0xa8dec7 - 0x136;
+      let _0xd27ae6 = _0xd3e5c5[_0xa8dec7];
+      return _0xd27ae6;
     }),
-    _0xca0f(_0x2d1a10, _0x376c52)
+    _0xa8de(_0x324ff6, _0x17c0b2)
   );
 }
-const _0x5c0682 = _0xca0f;
-(function (_0x108a1c, _0x227d17) {
-  const _0x180cad = _0xca0f,
-    _0x2d1fe2 = _0x108a1c();
+const _0x34fbf1 = _0xa8de;
+(function (_0x41c87f, _0x390970) {
+  const _0x20de3c = _0xa8de,
+    _0x270634 = _0x41c87f();
   while (!![]) {
     try {
-      const _0x1358f1 =
-        -parseInt(_0x180cad(0x1e3)) / 0x1 +
-        (parseInt(_0x180cad(0x16a)) / 0x2) * (-parseInt(_0x180cad(0x154)) / 0x3) +
-        -parseInt(_0x180cad(0x183)) / 0x4 +
-        (parseInt(_0x180cad(0x149)) / 0x5) * (parseInt(_0x180cad(0x186)) / 0x6) +
-        -parseInt(_0x180cad(0x1f5)) / 0x7 +
-        -parseInt(_0x180cad(0x236)) / 0x8 +
-        (parseInt(_0x180cad(0x20f)) / 0x9) * (parseInt(_0x180cad(0x217)) / 0xa);
-      if (_0x1358f1 === _0x227d17) break;
-      else _0x2d1fe2["push"](_0x2d1fe2["shift"]());
-    } catch (_0xa53cb) {
-      _0x2d1fe2["push"](_0x2d1fe2["shift"]());
+      const _0x58ae2b =
+        parseInt(_0x20de3c(0x187)) / 0x1 +
+        parseInt(_0x20de3c(0x218)) / 0x2 +
+        -parseInt(_0x20de3c(0x144)) / 0x3 +
+        parseInt(_0x20de3c(0x20e)) / 0x4 +
+        (-parseInt(_0x20de3c(0x1d2)) / 0x5) * (parseInt(_0x20de3c(0x1b3)) / 0x6) +
+        parseInt(_0x20de3c(0x1fa)) / 0x7 +
+        (-parseInt(_0x20de3c(0x1c5)) / 0x8) * (parseInt(_0x20de3c(0x1af)) / 0x9);
+      if (_0x58ae2b === _0x390970) break;
+      else _0x270634["push"](_0x270634["shift"]());
+    } catch (_0x3034d4) {
+      _0x270634["push"](_0x270634["shift"]());
     }
   }
-})(_0x2f17, 0xf3d69);
+})(_0xd3e5, 0xe7bf7);
 class t {
-  constructor({ position: _0x4c1e2f, velocity: _0x29f9b1, text: _0x27f0c3 }) {
-    const _0x18f96e = _0xca0f;
-    (this[_0x18f96e(0x21b)] = _0x4c1e2f),
-      (this[_0x18f96e(0x205)] = _0x29f9b1),
-      (this["text"] = _0x27f0c3),
-      (this["radius"] = {
-        x: l[_0x18f96e(0x1e7)](this[_0x18f96e(0x200)])[_0x18f96e(0x219)] + 0xa,
+  constructor({ position: _0x2e7ecd, velocity: _0x62842b, text: _0x3e5159 }) {
+    const _0x59c739 = _0xa8de;
+    (this[_0x59c739(0x149)] = _0x2e7ecd),
+      (this[_0x59c739(0x190)] = _0x62842b),
+      (this[_0x59c739(0x182)] = _0x3e5159),
+      (this[_0x59c739(0x14c)] = {
+        x: l[_0x59c739(0x1d3)](this[_0x59c739(0x182)])["width"] + 0xa,
         y:
-          l[_0x18f96e(0x1e7)](this[_0x18f96e(0x200)])["width"] / 1.5 > 0x14
-            ? l[_0x18f96e(0x1e7)](this[_0x18f96e(0x200)])[_0x18f96e(0x219)] / 1.5
+          l[_0x59c739(0x1d3)](this[_0x59c739(0x182)])["width"] / 1.5 > 0x14
+            ? l[_0x59c739(0x1d3)](this[_0x59c739(0x182)])["width"] / 1.5
             : 0x14,
       }),
-      (this["letterIndex"] = 0x0),
-      (this[_0x18f96e(0x1bf)] = {
-        fillStyle: _0x18f96e(0x150),
-        shadowColor: _0x18f96e(0x1be),
+      (this[_0x59c739(0x19e)] = 0x0),
+      (this[_0x59c739(0x1ed)] = {
+        fillStyle: _0x59c739(0x1c4),
+        shadowColor: "white",
         shadowOffsetY: 0x2,
         shadowBlur: 0x8,
-        strokeStyle: _0x18f96e(0x13f),
+        strokeStyle: "#6da5c0",
         lineWidth: 0x2,
-        font: _0x18f96e(0x1fd),
-        hitText: _0x18f96e(0x153),
-        normalText: _0x18f96e(0x13f),
-        normalShadowColor: _0x18f96e(0x1be),
-        normalStrokeStyle: "#6da5c0",
-        hitShadowColor: _0x18f96e(0x153),
-        hitStrokeStyle: _0x18f96e(0x18a),
-        destroyedShadowColor: _0x18f96e(0x13d),
-        destroyedStrokeStyle: _0x18f96e(0x169),
+        font: _0x59c739(0x212),
+        hitText: "#EC9704",
+        normalText: _0x59c739(0x1cf),
+        normalShadowColor: _0x59c739(0x197),
+        normalStrokeStyle: _0x59c739(0x1cf),
+        hitShadowColor: _0x59c739(0x1f4),
+        hitStrokeStyle: _0x59c739(0x19c),
+        destroyedShadowColor: _0x59c739(0x18d),
+        destroyedStrokeStyle: _0x59c739(0x136),
       });
   }
-  [_0x5c0682(0x181)]() {
-    const _0x3e70b0 = _0x5c0682;
-    l["save"](),
-      l[_0x3e70b0(0x1cb)](),
-      (l[_0x3e70b0(0x17e)] = this["style"][_0x3e70b0(0x17e)]),
-      l[_0x3e70b0(0x1ab)](
-        this[_0x3e70b0(0x21b)]["x"],
-        this[_0x3e70b0(0x21b)]["y"],
-        this["radius"]["x"],
-        this["radius"]["y"],
+  [_0x34fbf1(0x13e)]() {
+    const _0x42ab0f = _0x34fbf1;
+    l[_0x42ab0f(0x13a)](),
+      l["beginPath"](),
+      (l["fillStyle"] = this[_0x42ab0f(0x1ed)]["fillStyle"]),
+      l[_0x42ab0f(0x1e2)](
+        this["position"]["x"],
+        this["position"]["y"],
+        this[_0x42ab0f(0x14c)]["x"],
+        this[_0x42ab0f(0x14c)]["y"],
         0x0,
         0x2 * Math["PI"],
         0x168
       ),
-      l[_0x3e70b0(0x1b3)](),
-      (l[_0x3e70b0(0x1ad)] = this[_0x3e70b0(0x1bf)]["shadowColor"]),
-      (l[_0x3e70b0(0x175)] = this["style"][_0x3e70b0(0x175)]),
-      (l["shadowBlur"] = this[_0x3e70b0(0x1bf)][_0x3e70b0(0x1f3)]),
-      (l[_0x3e70b0(0x182)] = this["style"][_0x3e70b0(0x182)]),
-      (l[_0x3e70b0(0x206)] = this[_0x3e70b0(0x1bf)][_0x3e70b0(0x206)]),
-      l[_0x3e70b0(0x167)](),
-      l[_0x3e70b0(0x1dd)](),
-      l["restore"](),
-      l[_0x3e70b0(0x180)](),
-      (l["font"] = this[_0x3e70b0(0x1bf)]["font"]);
-    let _0x1e743f = this[_0x3e70b0(0x21b)]["x"] - this[_0x3e70b0(0x19a)]["x"] + 0xa;
-    for (let _0x406c13 = 0x0; _0x406c13 < this[_0x3e70b0(0x200)]["length"]; _0x406c13++) {
-      const _0x44785e = this[_0x3e70b0(0x200)][_0x406c13];
-      _0x406c13 < this[_0x3e70b0(0x13e)]
-        ? (l[_0x3e70b0(0x17e)] = this["style"]["hitText"])
-        : (l[_0x3e70b0(0x17e)] = this[_0x3e70b0(0x1bf)]["normalText"]),
-        l[_0x3e70b0(0x224)](_0x44785e, _0x1e743f, this["position"]["y"] + 0x5),
-        (_0x1e743f += l[_0x3e70b0(0x1e7)](_0x44785e)[_0x3e70b0(0x219)]);
+      l[_0x42ab0f(0x1c1)](),
+      (l["shadowColor"] = this[_0x42ab0f(0x1ed)][_0x42ab0f(0x210)]),
+      (l[_0x42ab0f(0x17b)] = this[_0x42ab0f(0x1ed)][_0x42ab0f(0x17b)]),
+      (l[_0x42ab0f(0x165)] = this["style"][_0x42ab0f(0x165)]),
+      (l[_0x42ab0f(0x18e)] = this[_0x42ab0f(0x1ed)]["strokeStyle"]),
+      (l["lineWidth"] = this["style"][_0x42ab0f(0x1c9)]),
+      l[_0x42ab0f(0x140)](),
+      l["closePath"](),
+      l[_0x42ab0f(0x13c)](),
+      l[_0x42ab0f(0x13a)](),
+      (l[_0x42ab0f(0x1eb)] = this[_0x42ab0f(0x1ed)][_0x42ab0f(0x1eb)]);
+    let _0x208614 = this[_0x42ab0f(0x149)]["x"] - this[_0x42ab0f(0x14c)]["x"] + 0xa;
+    for (let _0x538791 = 0x0; _0x538791 < this[_0x42ab0f(0x182)]["length"]; _0x538791++) {
+      const _0x33b82f = this[_0x42ab0f(0x182)][_0x538791];
+      _0x538791 < this[_0x42ab0f(0x19e)]
+        ? (l[_0x42ab0f(0x1b5)] = this[_0x42ab0f(0x1ed)][_0x42ab0f(0x1ab)])
+        : (l["fillStyle"] = this["style"][_0x42ab0f(0x181)]),
+        l[_0x42ab0f(0x219)](_0x33b82f, _0x208614, this["position"]["y"] + 0x5),
+        (_0x208614 += l[_0x42ab0f(0x1d3)](_0x33b82f)[_0x42ab0f(0x1b0)]);
     }
-    l[_0x3e70b0(0x20e)]();
+    l["restore"]();
   }
-  [_0x5c0682(0x18c)]() {
-    const _0x82486 = _0x5c0682;
-    this[_0x82486(0x181)](),
-      (this[_0x82486(0x21b)]["x"] += this[_0x82486(0x205)]["x"]),
-      (this[_0x82486(0x21b)]["y"] += this[_0x82486(0x205)]["y"]);
+  ["update"]() {
+    const _0x1ab068 = _0x34fbf1;
+    this[_0x1ab068(0x13e)](),
+      (this[_0x1ab068(0x149)]["x"] += this["velocity"]["x"]),
+      (this[_0x1ab068(0x149)]["y"] += this["velocity"]["y"]);
   }
-  [_0x5c0682(0x21a)]() {
-    this["letterIndex"]++;
+  ["increaseLetterIndex"]() {
+    const _0x12c464 = _0x34fbf1;
+    this[_0x12c464(0x19e)]++;
   }
-  [_0x5c0682(0x218)]() {
-    const _0x22016c = _0x5c0682;
-    this["letterIndex"] === this[_0x22016c(0x200)][_0x22016c(0x232)]
-      ? ((this["style"]["fillStyle"] = _0x22016c(0x184)),
-        (this[_0x22016c(0x1bf)][_0x22016c(0x1ad)] = this[_0x22016c(0x1bf)][_0x22016c(0x144)]),
-        (this[_0x22016c(0x1bf)][_0x22016c(0x182)] = this[_0x22016c(0x1bf)][_0x22016c(0x1b2)]))
-      : ((this[_0x22016c(0x1bf)][_0x22016c(0x1ad)] = this[_0x22016c(0x1bf)][_0x22016c(0x195)]),
-        (this[_0x22016c(0x1bf)][_0x22016c(0x182)] = this[_0x22016c(0x1bf)][_0x22016c(0x1e0)])),
+  [_0x34fbf1(0x172)]() {
+    const _0x1dea75 = _0x34fbf1;
+    this[_0x1dea75(0x19e)] === this["text"][_0x1dea75(0x145)]
+      ? ((this[_0x1dea75(0x1ed)][_0x1dea75(0x1b5)] = _0x1dea75(0x1d4)),
+        (this[_0x1dea75(0x1ed)][_0x1dea75(0x210)] = this[_0x1dea75(0x1ed)][_0x1dea75(0x18c)]),
+        (this["style"][_0x1dea75(0x18e)] = this[_0x1dea75(0x1ed)][_0x1dea75(0x1fe)]))
+      : ((this[_0x1dea75(0x1ed)][_0x1dea75(0x210)] = this[_0x1dea75(0x1ed)][_0x1dea75(0x171)]),
+        (this[_0x1dea75(0x1ed)][_0x1dea75(0x18e)] = this["style"][_0x1dea75(0x19f)])),
       setTimeout(() => {
-        const _0x158eaf = _0x22016c;
-        (this[_0x158eaf(0x1bf)][_0x158eaf(0x1ad)] = this[_0x158eaf(0x1bf)][_0x158eaf(0x1c7)]),
-          (this["style"]["strokeStyle"] = this[_0x158eaf(0x1bf)][_0x158eaf(0x19e)]);
+        const _0x555920 = _0x1dea75;
+        (this["style"][_0x555920(0x210)] = this[_0x555920(0x1ed)][_0x555920(0x168)]),
+          (this["style"][_0x555920(0x18e)] = this[_0x555920(0x1ed)][_0x555920(0x20a)]);
       }, 0x12c);
   }
 }
 class e {
   constructor() {
-    const _0x306c68 = _0x5c0682;
-    (this["positionY"] = 0x0), (this[_0x306c68(0x14b)] = 0x2 * n[_0x306c68(0x1d6)]);
+    const _0x552a5f = _0x34fbf1;
+    (this[_0x552a5f(0x216)] = 0x0), (this["velocityY"] = 0x2 * n[_0x552a5f(0x13d)]);
   }
-  [_0x5c0682(0x181)]() {
-    const _0x4af49f = _0x5c0682;
-    l[_0x4af49f(0x1cb)](),
-      (l[_0x4af49f(0x17e)] = _0x4af49f(0x1fe)),
-      l[_0x4af49f(0x193)](0x0, this[_0x4af49f(0x1ef)], n[_0x4af49f(0x219)], n[_0x4af49f(0x1d6)]),
-      l[_0x4af49f(0x1dd)]();
+  [_0x34fbf1(0x13e)]() {
+    const _0x340a37 = _0x34fbf1;
+    l[_0x340a37(0x1de)](),
+      (l[_0x340a37(0x1b5)] = "#05161a"),
+      l[_0x340a37(0x154)](0x0, this[_0x340a37(0x216)], n["width"], n[_0x340a37(0x13d)]),
+      l[_0x340a37(0x19a)]();
   }
-  [_0x5c0682(0x18c)]() {
-    const _0x234f29 = _0x5c0682;
-    this[_0x234f29(0x181)](), this[_0x234f29(0x1ef)] < n[_0x234f29(0x1d6)] && (this[_0x234f29(0x1ef)] += this["velocityY"]);
+  [_0x34fbf1(0x1a7)]() {
+    const _0x38fbab = _0x34fbf1;
+    this["draw"](), this[_0x38fbab(0x216)] < n[_0x38fbab(0x13d)] && (this[_0x38fbab(0x216)] += this[_0x38fbab(0x141)]);
   }
 }
 class i {
-  constructor({ scores: _0x24ec86, lives: _0xc2fd87, dictionaryName: _0x1a47cc }) {
-    const _0x281292 = _0x5c0682;
-    (this[_0x281292(0x1bf)] = { fillStyle: _0x281292(0x13d), shadowColor: _0x281292(0x13d) }),
-      (this[_0x281292(0x216)] = !0x1),
-      (this[_0x281292(0x221)] = _0x24ec86),
-      (this["__lives"] = _0xc2fd87),
-      (this[_0x281292(0x1d9)] = _0x1a47cc),
-      (this["__highScore"] = localStorage["getItem"](this["__dictionaryName"] + "_high_score") || 0x0);
+  constructor({ scores: _0xda7b0, lives: _0x4cf710, dictionaryName: _0x28dce0 }) {
+    const _0x5905c5 = _0x34fbf1;
+    (this[_0x5905c5(0x1ed)] = { fillStyle: _0x5905c5(0x18d), shadowColor: _0x5905c5(0x18d) }),
+      (this[_0x5905c5(0x1d6)] = !0x1),
+      (this["__scores"] = _0xda7b0),
+      (this[_0x5905c5(0x1b2)] = _0x4cf710),
+      (this[_0x5905c5(0x164)] = _0x28dce0),
+      (this[_0x5905c5(0x1fc)] = localStorage["getItem"](this["__dictionaryName"] + "_high_score") || 0x0);
   }
   #t() {
-    const _0x3ee487 = _0x5c0682;
-    l["save"](),
-      l[_0x3ee487(0x1cb)](),
-      (l[_0x3ee487(0x182)] = this[_0x3ee487(0x1bf)][_0x3ee487(0x17e)]),
-      (l[_0x3ee487(0x206)] = 0x3),
-      (l["shadowColor"] = this[_0x3ee487(0x1bf)][_0x3ee487(0x1ad)]),
-      (l[_0x3ee487(0x1f3)] = 0x5),
-      l["strokeRect"](0x0, 0x0, n[_0x3ee487(0x219)], n[_0x3ee487(0x1d6)]),
+    const _0x593673 = _0x34fbf1;
+    l[_0x593673(0x13a)](),
+      l[_0x593673(0x1de)](),
+      (l[_0x593673(0x18e)] = this["style"][_0x593673(0x1b5)]),
+      (l[_0x593673(0x1c9)] = 0x3),
+      (l[_0x593673(0x210)] = this[_0x593673(0x1ed)]["shadowColor"]),
+      (l[_0x593673(0x165)] = 0x5),
+      l[_0x593673(0x186)](0x0, 0x0, n[_0x593673(0x1b0)], n[_0x593673(0x13d)]),
       l["stroke"](),
-      l[_0x3ee487(0x1dd)](),
-      l[_0x3ee487(0x20e)]();
+      l[_0x593673(0x19a)](),
+      l[_0x593673(0x13c)]();
   }
-  ["update"]() {
+  [_0x34fbf1(0x1a7)]() {
     this.#e();
   }
   #e() {
-    this["__isBubbleMissed"] &&
+    const _0x333148 = _0x34fbf1;
+    this[_0x333148(0x1d6)] &&
       (this.#t(),
       setTimeout(() => {
-        const _0x338cde = _0xca0f;
-        this[_0x338cde(0x216)] = !0x1;
+        const _0x381237 = _0x333148;
+        this[_0x381237(0x1d6)] = !0x1;
       }, 0x1f4));
   }
-  [_0x5c0682(0x1a3)]() {
-    const _0x3c2a46 = _0x5c0682;
-    (this[_0x3c2a46(0x216)] = !0x0), this.#e();
+  ["bubbleMissed"]() {
+    const _0x523c58 = _0x34fbf1;
+    (this[_0x523c58(0x1d6)] = !0x0), this.#e();
   }
-  ["setScores"](_0x1855b5) {
-    this["__scores"] += _0x1855b5;
+  [_0x34fbf1(0x161)](_0x3e3ea3) {
+    const _0x25925c = _0x34fbf1;
+    this[_0x25925c(0x1bf)] += _0x3e3ea3;
   }
-  [_0x5c0682(0x16d)]() {
-    return this["__scores"];
+  [_0x34fbf1(0x1a0)]() {
+    const _0x376246 = _0x34fbf1;
+    return this[_0x376246(0x1bf)];
   }
-  [_0x5c0682(0x233)](_0x51e164) {
-    const _0x5738f8 = _0x5c0682;
-    this[_0x5738f8(0x223)] += _0x51e164;
+  ["setLives"](_0x40bbe5) {
+    this["__lives"] += _0x40bbe5;
   }
-  [_0x5c0682(0x17c)]() {
-    const _0x25bcf6 = _0x5c0682;
-    if (-0x1 === this[_0x25bcf6(0x223)]) return !0x1;
-    let _0x726648 = "\x20";
-    for (let _0x49a655 = 0x0; _0x49a655 < this[_0x25bcf6(0x223)]; _0x49a655++) _0x726648 += _0x25bcf6(0x160);
-    return _0x726648;
+  [_0x34fbf1(0x175)]() {
+    const _0x28eb63 = _0x34fbf1;
+    if (-0x1 === this[_0x28eb63(0x1b2)]) return !0x1;
+    let _0x1aa74d = "\x20";
+    for (let _0x133560 = 0x0; _0x133560 < this[_0x28eb63(0x1b2)]; _0x133560++) _0x1aa74d += _0x28eb63(0x193);
+    return _0x1aa74d;
   }
-  ["getHighScore"]() {
-    const _0x555c14 = _0x5c0682;
-    return this[_0x555c14(0x221)] > this[_0x555c14(0x20d)]
-      ? (this.#i(this["__scores"]), this[_0x555c14(0x20d)] + "\x20<span\x20class=\x22new-record-badge\x22>New\x20record!</span>")
-      : this[_0x555c14(0x20d)];
+  [_0x34fbf1(0x202)]() {
+    const _0x53681c = _0x34fbf1;
+    return this[_0x53681c(0x1bf)] > this[_0x53681c(0x1fc)]
+      ? (this.#i(this[_0x53681c(0x1bf)]), this["__highScore"] + _0x53681c(0x1e1))
+      : this["__highScore"];
   }
-  #i(_0x28188a) {
-    const _0x41dfaf = _0x5c0682;
-    localStorage[_0x41dfaf(0x1c1)](this[_0x41dfaf(0x1d9)] + _0x41dfaf(0x155), _0x28188a), (this[_0x41dfaf(0x20d)] = _0x28188a);
+  #i(_0x2b399e) {
+    const _0x2de118 = _0x34fbf1;
+    localStorage[_0x2de118(0x15d)](this[_0x2de118(0x164)] + _0x2de118(0x217), _0x2b399e), (this["__highScore"] = _0x2b399e);
   }
 }
 class s {
-  constructor({ position: _0xe88ca4, radius: _0x4269f5 }) {
-    const _0x5466a9 = _0x5c0682;
-    (this[_0x5466a9(0x21b)] = _0xe88ca4),
-      (this[_0x5466a9(0x19a)] = _0x4269f5),
-      (this[_0x5466a9(0x1bf)] = {
-        fillStyle: _0x5466a9(0x168),
-        shadowColor: _0x5466a9(0x1a2),
-        strokeStyle: "#6da5c0",
-        shootShadowColor: _0x5466a9(0x153),
-        shootStrokeStyle: _0x5466a9(0x153),
+  constructor({ position: _0x4d89ca, radius: _0x50fb72 }) {
+    const _0x2d901c = _0x34fbf1;
+    (this[_0x2d901c(0x149)] = _0x4d89ca),
+      (this[_0x2d901c(0x14c)] = _0x50fb72),
+      (this[_0x2d901c(0x1ed)] = {
+        fillStyle: _0x2d901c(0x177),
+        shadowColor: "rgba(6,\x2088,\x2047,\x201)",
+        strokeStyle: _0x2d901c(0x1cf),
+        shootShadowColor: _0x2d901c(0x1f4),
+        shootStrokeStyle: _0x2d901c(0x1f4),
       });
   }
-  ["draw"]() {
-    const _0xbb683f = _0x5c0682;
-    l["save"](),
-      l[_0xbb683f(0x1cb)](),
-      l[_0xbb683f(0x176)](
-        this[_0xbb683f(0x21b)]["x"],
-        this[_0xbb683f(0x21b)]["y"] + this[_0xbb683f(0x19a)] / 0x2,
-        this[_0xbb683f(0x19a)],
-        0x0,
-        0x2 * Math["PI"],
-        !0x1
-      ),
-      (l[_0xbb683f(0x17e)] = this[_0xbb683f(0x1bf)][_0xbb683f(0x17e)]),
-      l["fill"](),
-      (l[_0xbb683f(0x1ad)] = this[_0xbb683f(0x1bf)]["shadowColor"]),
-      (l[_0xbb683f(0x196)] = 0x2),
-      (l[_0xbb683f(0x1f3)] = 0x10),
-      (l[_0xbb683f(0x182)] = this[_0xbb683f(0x1bf)][_0xbb683f(0x182)]),
-      (l[_0xbb683f(0x206)] = 0x5),
-      l[_0xbb683f(0x167)](),
-      l[_0xbb683f(0x1dd)](),
-      l[_0xbb683f(0x20e)]();
-  }
-  [_0x5c0682(0x220)]() {
-    const _0x1e62f4 = _0x5c0682;
-    l[_0x1e62f4(0x180)](),
+  [_0x34fbf1(0x13e)]() {
+    const _0x40deb6 = _0x34fbf1;
+    l[_0x40deb6(0x13a)](),
       l["beginPath"](),
-      l[_0x1e62f4(0x176)](
-        this[_0x1e62f4(0x21b)]["x"],
-        this[_0x1e62f4(0x21b)]["y"] + this["radius"] / 0x2,
-        1.25 * this[_0x1e62f4(0x19a)],
+      l["arc"](
+        this[_0x40deb6(0x149)]["x"],
+        this[_0x40deb6(0x149)]["y"] + this[_0x40deb6(0x14c)] / 0x2,
+        this[_0x40deb6(0x14c)],
         0x0,
         0x2 * Math["PI"],
         !0x1
       ),
-      (l[_0x1e62f4(0x17e)] = this[_0x1e62f4(0x1bf)][_0x1e62f4(0x17e)]),
-      l[_0x1e62f4(0x1b3)](),
-      (l[_0x1e62f4(0x1ad)] = this[_0x1e62f4(0x1bf)][_0x1e62f4(0x198)]),
-      (l[_0x1e62f4(0x196)] = 0x2),
-      (l["shadowBlur"] = 0x10),
-      (l[_0x1e62f4(0x182)] = this[_0x1e62f4(0x1bf)]["shootStrokeStyle"]),
-      (l[_0x1e62f4(0x206)] = 0x5),
-      l[_0x1e62f4(0x167)](),
-      l[_0x1e62f4(0x1dd)](),
-      l[_0x1e62f4(0x20e)]();
+      (l[_0x40deb6(0x1b5)] = this["style"][_0x40deb6(0x1b5)]),
+      l[_0x40deb6(0x1c1)](),
+      (l["shadowColor"] = this[_0x40deb6(0x1ed)]["shadowColor"]),
+      (l[_0x40deb6(0x166)] = 0x2),
+      (l[_0x40deb6(0x165)] = 0x10),
+      (l[_0x40deb6(0x18e)] = this["style"][_0x40deb6(0x18e)]),
+      (l["lineWidth"] = 0x5),
+      l[_0x40deb6(0x140)](),
+      l[_0x40deb6(0x19a)](),
+      l["restore"]();
   }
-}
-function _0x2f17() {
-  const _0x43e3ee = [
-    "Gadget",
-    "normalShadowColor",
-    "struct",
-    "Sword",
-    "memory",
-    "beginPath",
-    "Blaster",
-    "HTML",
-    "KeyR",
-    "addEventListener",
-    "getDictionaryName",
-    "point",
-    "flex",
-    "getHighScore",
-    "sqrt",
-    "Milano",
-    "height",
-    "includes",
-    "industry",
-    "__dictionaryName",
-    "setScores",
-    "Whistle",
-    "KeyD",
-    "closePath",
-    "add",
-    "KeyP",
-    "hitStrokeStyle",
-    "desktop",
-    "KeyH",
-    "547862ihIEYu",
-    "form",
-    "floor",
-    "Drax",
-    "measureText",
-    "tideman",
-    "Stone",
-    "Orb",
-    "animation-fade",
-    "fiftyville",
-    "Star",
-    "Kree",
-    "positionY",
-    "Set\x20wrong\x20dictionary",
-    "splice",
-    "none",
-    "shadowBlur",
-    "rotation",
-    "1648969cDHIbX",
-    "closeAboutBtn",
-    "Mask",
-    "lives",
-    "author",
-    "background",
-    "setChosenDictionary",
-    "array",
-    "bold\x2018px\x20Arial",
-    "#05161a",
-    "aboutBtn",
-    "text",
-    "enim",
-    "fact",
-    "flask",
-    "gameOverMenuLinkBtn",
-    "velocity",
-    "lineWidth",
-    "SQL",
-    "Warlock",
-    "Quill",
-    "Ipsum",
-    "dictionary",
-    "</option>",
-    "__highScore",
-    "restore",
-    "27975141ohudkf",
-    "Digit0",
-    "animation-appear",
-    "scratch",
-    "translate",
-    "duck",
-    "django",
-    "__isBubbleMissed",
-    "10OiPLUd",
-    "changeColor",
-    "width",
-    "increaseLetterIndex",
-    "position",
-    "Dictionary\x20wasn\x27t\x20set:\x20",
-    "KeyE",
-    "CS50",
-    "Tower",
-    "shootEffect",
-    "__scores",
-    "Sovereign",
-    "__lives",
-    "fillText",
-    "Ship",
-    "dictionarySelect",
-    "Soul",
-    "Cosmo",
-    "merge",
-    "finance",
-    "chunk",
-    "year",
-    "Rocket",
-    "and",
-    "book",
-    "Knowhere",
-    "KeyJ",
-    "length",
-    "setLives",
-    "Love",
-    "loop",
-    "9925960CAIhoe",
-    "git",
-    "innerWidth",
-    "KeyC",
-    "red",
-    "letterIndex",
-    "#6da5c0",
-    "renderDictionariesList",
-    "random",
-    "<option\x20value=\x22",
-    "javascript",
-    "destroyedShadowColor",
-    "infoTable",
-    "KeyZ",
-    "classList",
-    "code",
-    "10ZeUCwa",
-    "rotate",
-    "velocityY",
-    "innerHeight",
-    "bootstrap",
-    "Mix",
-    "elif",
-    "#294d61",
-    "setInterval",
-    "change",
-    "#EC9704",
-    "33HjAOLu",
-    "_high_score",
-    "KeyL",
-    "KeyF",
-    "KeyI",
-    "emoji",
-    "display",
-    "section",
-    "Collector",
-    "KeyN",
-    "day",
-    "Bogdan\x20Shologin",
-    "<svg\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fill=\x22none\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20viewBox=\x220\x200\x2024\x2024\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-width=\x221.5\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke=\x22#EC9704\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x22info-fire-icon\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-linecap=\x22round\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-linejoin=\x22round\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20d=\x22M15.362\x205.214A8.252\x208.252\x200\x200112\x2021\x208.25\x208.25\x200\x20016.038\x207.048\x208.287\x208.287\x200\x20009\x209.6a8.983\x208.983\x200\x20013.361-6.867\x208.21\x208.21\x200\x20003\x202.48z\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-linecap=\x22round\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-linejoin=\x22round\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20d=\x22M12\x2018a3.75\x203.75\x200\x2000.495-7.467\x205.99\x205.99\x200\x2000-1.925\x203.546\x205.974\x205.974\x200\x2001-2.133-1A3.75\x203.75\x200\x200012\x2018z\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
-    "Dance",
-    "Retro",
-    "value",
-    "ninja",
-    "amet",
-    "KeyK",
-    "stroke",
-    "rgba(6,\x2088,\x2047,\x200.02)",
-    "#b51a2b",
-    "85854YYuZnP",
-    "__chosenDictionary",
-    "KeyA",
-    "getScores",
-    "debug",
-    "sed",
-    "page",
-    "Arrow",
-    "Ego",
-    "querySelector",
-    "like",
-    "shadowOffsetY",
-    "arc",
-    "tag",
-    "Vengeance",
-    "simply",
-    "type",
-    "KeyT",
-    "getLives",
-    "push",
-    "fillStyle",
-    "dracula",
-    "save",
-    "draw",
-    "strokeStyle",
-    "3026012tlGmcf",
-    "gray",
-    "dummy",
-    "3429858DZmQlL",
-    "Ronan",
-    "Xandar",
-    "KeyU",
-    "#fbe4d8",
-    "KeyQ",
-    "update",
-    "the",
-    "Groot",
-    "innerHTML",
-    "getElementById",
-    "cancelAnimationFrame",
-    "getDictionary",
-    "fillRect",
-    "KeyO",
-    "hitShadowColor",
-    "shadowOffset",
-    "pointer",
-    "shootShadowColor",
-    "heap",
-    "radius",
-    "gallery",
-    "Infinity",
-    "target",
-    "normalStrokeStyle",
-    "long",
-    "KeyV",
-    "keydown",
-    "rgba(6,\x2088,\x2047,\x201)",
-    "bubbleMissed",
-    "root",
-    "toLowerCase",
-    "leap",
-    "removeEventListener",
-    "block",
-    "science",
-    "click",
-    "ellipse",
-    "KeyX",
-    "shadowColor",
-    "Digit5",
-    "log",
-    "Awesome",
-    "getContext",
-    "destroyedStrokeStyle",
-    "fill",
-    "mario",
-    "Lord",
-    "KeyW",
-    "KeyS",
-    "Planet",
-    "line",
-    "Lorem",
-    "halloween",
-    "Nebula",
-    "TCP",
-    "white",
-    "style",
-    "KeyB",
-    "setItem",
-    "Space",
-    "__dictionaries",
-    "gameOverHighest",
-    "stack",
-  ];
-  _0x2f17 = function () {
-    return _0x43e3ee;
-  };
-  return _0x2f17();
+  [_0x34fbf1(0x14e)]() {
+    const _0x521a99 = _0x34fbf1;
+    l[_0x521a99(0x13a)](),
+      l[_0x521a99(0x1de)](),
+      l[_0x521a99(0x1f6)](
+        this[_0x521a99(0x149)]["x"],
+        this[_0x521a99(0x149)]["y"] + this[_0x521a99(0x14c)] / 0x2,
+        1.25 * this[_0x521a99(0x14c)],
+        0x0,
+        0x2 * Math["PI"],
+        !0x1
+      ),
+      (l[_0x521a99(0x1b5)] = this[_0x521a99(0x1ed)][_0x521a99(0x1b5)]),
+      l[_0x521a99(0x1c1)](),
+      (l[_0x521a99(0x210)] = this[_0x521a99(0x1ed)][_0x521a99(0x1c3)]),
+      (l[_0x521a99(0x166)] = 0x2),
+      (l[_0x521a99(0x165)] = 0x10),
+      (l["strokeStyle"] = this[_0x521a99(0x1ed)]["shootStrokeStyle"]),
+      (l["lineWidth"] = 0x5),
+      l["stroke"](),
+      l["closePath"](),
+      l[_0x521a99(0x13c)]();
+  }
 }
 class o {
-  constructor({ position: _0x409d7a, velocity: _0x51755a, rotation: _0x290668 }) {
-    const _0x351114 = _0x5c0682;
-    (this[_0x351114(0x21b)] = _0x409d7a),
-      (this[_0x351114(0x205)] = _0x51755a),
-      (this[_0x351114(0x1f4)] = _0x290668),
-      (this[_0x351114(0x219)] = 0x5),
-      (this["style"] = { fillStyle: _0x351114(0x13f) });
+  constructor({ position: _0x30d9d5, velocity: _0x4f7c31, rotation: _0x5e4bc8 }) {
+    const _0xae1524 = _0x34fbf1;
+    (this[_0xae1524(0x149)] = _0x30d9d5),
+      (this[_0xae1524(0x190)] = _0x4f7c31),
+      (this[_0xae1524(0x198)] = _0x5e4bc8),
+      (this[_0xae1524(0x1b0)] = 0x5),
+      (this["style"] = { fillStyle: _0xae1524(0x1cf) });
   }
-  [_0x5c0682(0x181)]() {
-    const _0x4dbf9b = _0x5c0682;
-    l[_0x4dbf9b(0x180)](),
-      l[_0x4dbf9b(0x213)](this[_0x4dbf9b(0x21b)]["x"], this[_0x4dbf9b(0x21b)]["y"]),
-      l[_0x4dbf9b(0x14a)](this["rotation"]),
-      l["translate"](-this["position"]["x"], -this["position"]["y"]),
-      l[_0x4dbf9b(0x1cb)](),
-      (l[_0x4dbf9b(0x17e)] = this[_0x4dbf9b(0x1bf)][_0x4dbf9b(0x17e)]),
-      l[_0x4dbf9b(0x193)](this[_0x4dbf9b(0x21b)]["x"], this[_0x4dbf9b(0x21b)]["y"], this["width"], n["height"]),
-      l["closePath"](),
-      l[_0x4dbf9b(0x20e)]();
+  [_0x34fbf1(0x13e)]() {
+    const _0x155585 = _0x34fbf1;
+    l[_0x155585(0x13a)](),
+      l[_0x155585(0x13f)](this["position"]["x"], this[_0x155585(0x149)]["y"]),
+      l[_0x155585(0x1a6)](this[_0x155585(0x198)]),
+      l[_0x155585(0x13f)](-this["position"]["x"], -this[_0x155585(0x149)]["y"]),
+      l[_0x155585(0x1de)](),
+      (l[_0x155585(0x1b5)] = this[_0x155585(0x1ed)][_0x155585(0x1b5)]),
+      l[_0x155585(0x154)](this[_0x155585(0x149)]["x"], this[_0x155585(0x149)]["y"], this[_0x155585(0x1b0)], n["height"]),
+      l[_0x155585(0x19a)](),
+      l[_0x155585(0x13c)]();
   }
-  [_0x5c0682(0x18c)]() {
-    const _0x56febe = _0x5c0682;
-    this[_0x56febe(0x21b)]["y"] < n[_0x56febe(0x1d6)] / 0x2 && (this["width"] = 0x2),
-      this["draw"](),
-      (this["position"]["x"] += this["velocity"]["x"]),
-      (this[_0x56febe(0x21b)]["y"] += this["velocity"]["y"]);
+  ["update"]() {
+    const _0x13a53b = _0x34fbf1;
+    this["position"]["y"] < n[_0x13a53b(0x13d)] / 0x2 && (this[_0x13a53b(0x1b0)] = 0x2),
+      this[_0x13a53b(0x13e)](),
+      (this[_0x13a53b(0x149)]["x"] += this[_0x13a53b(0x190)]["x"]),
+      (this["position"]["y"] += this[_0x13a53b(0x190)]["y"]);
   }
 }
-const n = document[_0x5c0682(0x173)]("canvas"),
-  l = n[_0x5c0682(0x1b1)]("2d"),
-  r = document[_0x5c0682(0x190)](_0x5c0682(0x1fa)),
-  a = document[_0x5c0682(0x190)](_0x5c0682(0x145)),
-  h = document["getElementById"]("infoScores"),
-  d = document[_0x5c0682(0x190)](_0x5c0682(0x1f8)),
-  c = document["getElementById"]("canvasMenuLinkBtn"),
-  y = document[_0x5c0682(0x190)]("playBtn"),
-  u = document["getElementById"](_0x5c0682(0x1ff)),
-  g = document[_0x5c0682(0x190)]("mainMenuTable"),
-  p = document[_0x5c0682(0x190)](_0x5c0682(0x1f9)),
-  m = document[_0x5c0682(0x190)](_0x5c0682(0x226)),
-  w = document[_0x5c0682(0x190)]("aboutBadge"),
-  S = document[_0x5c0682(0x190)](_0x5c0682(0x1f6)),
-  f = document["getElementById"]("gameOverTable"),
+const n = document[_0x34fbf1(0x1bc)]("canvas"),
+  l = n["getContext"]("2d"),
+  r = document["getElementById"](_0x34fbf1(0x1f5)),
+  a = document[_0x34fbf1(0x1a1)](_0x34fbf1(0x1b6)),
+  h = document[_0x34fbf1(0x1a1)](_0x34fbf1(0x1f2)),
+  d = document[_0x34fbf1(0x1a1)](_0x34fbf1(0x1f8)),
+  c = document[_0x34fbf1(0x1a1)](_0x34fbf1(0x17e)),
+  y = document[_0x34fbf1(0x1a1)](_0x34fbf1(0x1b1)),
+  u = document["getElementById"](_0x34fbf1(0x139)),
+  g = document[_0x34fbf1(0x1a1)](_0x34fbf1(0x14f)),
+  p = document["getElementById"](_0x34fbf1(0x185)),
+  m = document[_0x34fbf1(0x1a1)](_0x34fbf1(0x213)),
+  w = document[_0x34fbf1(0x1a1)](_0x34fbf1(0x169)),
+  S = document[_0x34fbf1(0x1a1)](_0x34fbf1(0x176)),
+  f = document["getElementById"](_0x34fbf1(0x155)),
   x = document["getElementById"]("gameOverScore"),
-  v = document[_0x5c0682(0x190)](_0x5c0682(0x1c4)),
-  _ = document[_0x5c0682(0x190)]("playAgainBtn"),
-  k = document[_0x5c0682(0x190)](_0x5c0682(0x204));
-(n[_0x5c0682(0x219)] = window[_0x5c0682(0x13b)]), (n[_0x5c0682(0x1d6)] = window[_0x5c0682(0x14c)]);
+  v = document["getElementById"](_0x34fbf1(0x1f3)),
+  _ = document[_0x34fbf1(0x1a1)](_0x34fbf1(0x1bb)),
+  k = document[_0x34fbf1(0x1a1)]("gameOverMenuLinkBtn");
+(n[_0x34fbf1(0x1b0)] = window[_0x34fbf1(0x1db)]), (n["height"] = window["innerHeight"]);
 const b = new (class {
-  constructor(_0x447b86) {
-    const _0x18ee6e = _0x5c0682;
-    (this["__dictionaries"] = _0x447b86),
-      (this[_0x18ee6e(0x16b)] = localStorage["getItem"](_0x18ee6e(0x20b)) || _0x18ee6e(0x21e));
+  constructor(_0x5e3cb1) {
+    const _0x2c3968 = _0x34fbf1;
+    (this["__dictionaries"] = _0x5e3cb1), (this[_0x2c3968(0x1d5)] = localStorage["getItem"](_0x2c3968(0x20b)) || "CS50");
   }
   ["renderDictionariesList"]() {
-    const _0x459e3a = _0x5c0682;
-    let _0x38c153 = "";
-    for (let _0x2c3b53 in this[_0x459e3a(0x1c3)])
-      _0x38c153 += _0x459e3a(0x142) + _0x2c3b53 + "\x22>" + _0x2c3b53 + _0x459e3a(0x20c);
-    return _0x38c153;
+    const _0xa4f8d8 = _0x34fbf1;
+    let _0x467d4a = "";
+    for (let _0x599b68 in this[_0xa4f8d8(0x151)])
+      _0x467d4a += _0xa4f8d8(0x201) + _0x599b68 + "\x22>" + _0x599b68 + _0xa4f8d8(0x196);
+    return _0x467d4a;
   }
-  [_0x5c0682(0x1fb)](_0x2ba7db) {
-    const _0x4d3064 = _0x5c0682;
-    for (let _0x452bd4 in this[_0x4d3064(0x1c3)])
-      if (_0x452bd4 === _0x2ba7db)
-        return (this["__chosenDictionary"] = _0x2ba7db), localStorage["setItem"](_0x4d3064(0x20b), _0x2ba7db), !0x0;
-    return console[_0x4d3064(0x1af)](_0x4d3064(0x21c), _0x2ba7db), !0x1;
+  [_0x34fbf1(0x1d9)](_0x39797e) {
+    const _0xb04429 = _0x34fbf1;
+    for (let _0x41055f in this["__dictionaries"])
+      if (_0x41055f === _0x39797e)
+        return (this[_0xb04429(0x1d5)] = _0x39797e), localStorage[_0xb04429(0x15d)]("dictionary", _0x39797e), !0x0;
+    return console[_0xb04429(0x1ce)](_0xb04429(0x178), _0x39797e), !0x1;
   }
-  [_0x5c0682(0x192)]() {
-    const _0x1041ec = _0x5c0682;
-    return this[_0x1041ec(0x1c3)][this["__chosenDictionary"]];
+  [_0x34fbf1(0x15e)]() {
+    const _0x4e99b7 = _0x34fbf1;
+    return this["__dictionaries"][this[_0x4e99b7(0x1d5)]];
   }
-  [_0x5c0682(0x1d0)]() {
-    const _0x4e0ad3 = _0x5c0682;
-    return this[_0x4e0ad3(0x16b)];
+  ["getDictionaryName"]() {
+    const _0x33a492 = _0x34fbf1;
+    return this[_0x33a492(0x1d5)];
   }
 })({
   CS50: [
-    "cs50",
-    _0x5c0682(0x1fc),
-    _0x5c0682(0x148),
+    _0x34fbf1(0x1d0),
+    _0x34fbf1(0x147),
+    _0x34fbf1(0x143),
     "C",
-    "python",
+    _0x34fbf1(0x163),
     "HTTP",
-    _0x5c0682(0x1bd),
+    _0x34fbf1(0x21a),
     "IP",
-    _0x5c0682(0x203),
-    _0x5c0682(0x1ca),
-    _0x5c0682(0x212),
-    _0x5c0682(0x1ec),
-    _0x5c0682(0x1b4),
-    _0x5c0682(0x215),
+    _0x34fbf1(0x1ff),
+    _0x34fbf1(0x15c),
+    "scratch",
+    _0x34fbf1(0x206),
+    _0x34fbf1(0x159),
+    _0x34fbf1(0x1cc),
     "AI",
-    "queue",
-    _0x5c0682(0x1c5),
-    _0x5c0682(0x199),
-    "sort",
-    "bubble",
-    _0x5c0682(0x229),
-    _0x5c0682(0x237),
-    _0x5c0682(0x14d),
-    _0x5c0682(0x1cd),
-    "CSS",
-    _0x5c0682(0x143),
-    _0x5c0682(0x1a9),
-    _0x5c0682(0x197),
-    _0x5c0682(0x1bb),
-    _0x5c0682(0x17f),
-    _0x5c0682(0x214),
-    _0x5c0682(0x16e),
-    _0x5c0682(0x22a),
-    _0x5c0682(0x1e8),
-    _0x5c0682(0x207),
-    _0x5c0682(0x164),
-    _0x5c0682(0x159),
+    _0x34fbf1(0x173),
+    "stack",
+    _0x34fbf1(0x209),
+    _0x34fbf1(0x1e5),
+    _0x34fbf1(0x16f),
+    _0x34fbf1(0x203),
+    _0x34fbf1(0x14b),
+    "bootstrap",
+    "HTML",
+    _0x34fbf1(0x200),
+    _0x34fbf1(0x1a9),
+    _0x34fbf1(0x1d1),
+    _0x34fbf1(0x1ca),
+    _0x34fbf1(0x1fb),
+    _0x34fbf1(0x195),
+    "duck",
+    _0x34fbf1(0x17a),
+    _0x34fbf1(0x215),
+    "tideman",
+    "SQL",
+    "ninja",
+    "emoji",
     "data",
-    _0x5c0682(0x1c8),
-    _0x5c0682(0x170),
-    _0x5c0682(0x235),
+    "struct",
+    _0x34fbf1(0x18f),
+    "loop",
     "if",
-    "else",
-    _0x5c0682(0x14f),
-    _0x5c0682(0x17a),
-    "form",
-    _0x5c0682(0x177),
+    _0x34fbf1(0x1f9),
+    "elif",
+    "type",
+    _0x34fbf1(0x1d8),
+    "tag",
   ],
   Lorem: [
-    _0x5c0682(0x1ba),
-    _0x5c0682(0x20a),
+    _0x34fbf1(0x1ea),
+    _0x34fbf1(0x207),
     "is",
-    _0x5c0682(0x179),
-    _0x5c0682(0x185),
-    _0x5c0682(0x200),
+    _0x34fbf1(0x16e),
+    "dummy",
+    "text",
     "of",
-    _0x5c0682(0x18d),
-    _0x5c0682(0x22e),
-    _0x5c0682(0x1d8),
-    _0x5c0682(0x22f),
-    "ever",
-    "since",
-    _0x5c0682(0x1e1),
-    _0x5c0682(0x174),
-    _0x5c0682(0x202),
-    _0x5c0682(0x19f),
-    _0x5c0682(0x19b),
-    _0x5c0682(0x170),
-    _0x5c0682(0x1a6),
-    _0x5c0682(0x1d1),
+    _0x34fbf1(0x14d),
+    _0x34fbf1(0x214),
+    _0x34fbf1(0x1fd),
+    _0x34fbf1(0x18b),
+    _0x34fbf1(0x142),
+    _0x34fbf1(0x1a2),
+    _0x34fbf1(0x1a5),
+    _0x34fbf1(0x1f1),
+    "fact",
+    _0x34fbf1(0x1e7),
+    _0x34fbf1(0x1f0),
+    _0x34fbf1(0x18f),
+    _0x34fbf1(0x167),
+    "point",
     "site",
-    _0x5c0682(0x22c),
-    _0x5c0682(0x1a4),
-    _0x5c0682(0x15e),
-    _0x5c0682(0x1b9),
-    _0x5c0682(0x22b),
-    _0x5c0682(0x15b),
-    _0x5c0682(0x1e4),
-    "tag",
-    _0x5c0682(0x165),
-    _0x5c0682(0x16f),
+    "year",
+    "root",
+    _0x34fbf1(0x16b),
+    _0x34fbf1(0x1e6),
+    "chunk",
+    _0x34fbf1(0x1dd),
+    _0x34fbf1(0x1d8),
+    _0x34fbf1(0x1ae),
+    "amet",
+    "sed",
     "et",
     "do",
     "ut",
-    _0x5c0682(0x201),
+    "enim",
   ],
   "Guardians\x20of\x20Galaxy": [
-    _0x5c0682(0x1ed),
-    _0x5c0682(0x1b5),
-    "Gamora",
-    _0x5c0682(0x1e6),
-    _0x5c0682(0x22d),
-    _0x5c0682(0x18e),
-    _0x5c0682(0x1b0),
-    _0x5c0682(0x14e),
-    _0x5c0682(0x1d5),
-    _0x5c0682(0x19c),
-    _0x5c0682(0x234),
-    _0x5c0682(0x1e9),
-    _0x5c0682(0x209),
-    "Yondu",
-    _0x5c0682(0x1bc),
-    _0x5c0682(0x187),
-    "Ego",
-    "Ravager",
-    _0x5c0682(0x1ea),
-    "Nova",
-    _0x5c0682(0x161),
-    "Guardians",
-    _0x5c0682(0x21f),
-    _0x5c0682(0x222),
-    _0x5c0682(0x15c),
-    _0x5c0682(0x230),
-    _0x5c0682(0x1ee),
-    _0x5c0682(0x1cc),
-    _0x5c0682(0x1f7),
-    _0x5c0682(0x178),
-    _0x5c0682(0x1c9),
-    _0x5c0682(0x188),
-    _0x5c0682(0x1c6),
-    _0x5c0682(0x172),
-    _0x5c0682(0x1b8),
-    _0x5c0682(0x171),
-    _0x5c0682(0x227),
-    _0x5c0682(0x228),
-    _0x5c0682(0x225),
-    _0x5c0682(0x208),
-    _0x5c0682(0x162),
-    _0x5c0682(0x161),
-    _0x5c0682(0x1db),
+    _0x34fbf1(0x1b8),
+    _0x34fbf1(0x16d),
+    _0x34fbf1(0x194),
+    _0x34fbf1(0x17d),
+    "Rocket",
+    "Groot",
+    "Awesome",
+    _0x34fbf1(0x21b),
+    _0x34fbf1(0x174),
+    _0x34fbf1(0x179),
+    _0x34fbf1(0x15f),
+    _0x34fbf1(0x204),
+    _0x34fbf1(0x19d),
+    _0x34fbf1(0x1d7),
+    _0x34fbf1(0x1cb),
+    _0x34fbf1(0x158),
+    _0x34fbf1(0x1c8),
+    _0x34fbf1(0x1ad),
+    _0x34fbf1(0x1bd),
+    _0x34fbf1(0x1e8),
+    _0x34fbf1(0x1c0),
+    _0x34fbf1(0x150),
+    _0x34fbf1(0x211),
+    "Sovereign",
+    _0x34fbf1(0x1b7),
+    "Knowhere",
+    "Kree",
+    "Blaster",
+    "Mask",
+    "Vengeance",
+    _0x34fbf1(0x1ba),
+    "Xandar",
+    "Gadget",
+    _0x34fbf1(0x1c8),
+    _0x34fbf1(0x188),
+    _0x34fbf1(0x18a),
+    _0x34fbf1(0x20f),
+    _0x34fbf1(0x183),
+    "Ship",
+    _0x34fbf1(0x1b4),
+    _0x34fbf1(0x1ef),
+    _0x34fbf1(0x1c0),
+    "Whistle",
   ],
 });
 function L() {
-  const _0x189de1 = _0x5c0682;
-  (n[_0x189de1(0x1bf)]["display"] = _0x189de1(0x1f2)),
-    (f[_0x189de1(0x1bf)][_0x189de1(0x15a)] = _0x189de1(0x1f2)),
-    (a[_0x189de1(0x1bf)][_0x189de1(0x15a)] = _0x189de1(0x1f2)),
-    (c[_0x189de1(0x1bf)][_0x189de1(0x15a)] = _0x189de1(0x1f2)),
-    (r[_0x189de1(0x1bf)][_0x189de1(0x15a)] = _0x189de1(0x1a8)),
-    (g[_0x189de1(0x1bf)][_0x189de1(0x15a)] = _0x189de1(0x1d2)),
-    (m["innerHTML"] = b[_0x189de1(0x140)]()),
-    (m["value"] = b[_0x189de1(0x1d0)]());
+  const _0x1f91d0 = _0x34fbf1;
+  (n[_0x1f91d0(0x1ed)][_0x1f91d0(0x191)] = _0x1f91d0(0x180)),
+    (f[_0x1f91d0(0x1ed)][_0x1f91d0(0x191)] = "none"),
+    (a["style"][_0x1f91d0(0x191)] = _0x1f91d0(0x180)),
+    (c[_0x1f91d0(0x1ed)][_0x1f91d0(0x191)] = _0x1f91d0(0x180)),
+    (r["style"][_0x1f91d0(0x191)] = "block"),
+    (g[_0x1f91d0(0x1ed)][_0x1f91d0(0x191)] = _0x1f91d0(0x208)),
+    (m["innerHTML"] = b["renderDictionariesList"]()),
+    (m["value"] = b[_0x1f91d0(0x1a4)]());
 }
 function C() {
-  const _0x28b1e8 = _0x5c0682;
-  if (_0x28b1e8(0x15f) !== p[_0x28b1e8(0x18f)]) return;
-  (n[_0x28b1e8(0x1bf)][_0x28b1e8(0x15a)] = "block"),
-    (r[_0x28b1e8(0x1bf)]["display"] = _0x28b1e8(0x1f2)),
-    (g[_0x28b1e8(0x1bf)]["display"] = _0x28b1e8(0x1f2)),
-    (f[_0x28b1e8(0x1bf)][_0x28b1e8(0x15a)] = "none"),
-    (a[_0x28b1e8(0x1bf)][_0x28b1e8(0x15a)] = "block"),
-    (c[_0x28b1e8(0x1bf)]["display"] = _0x28b1e8(0x1a8));
-  const _0x59d35f = new i({ scores: 0x0, lives: 0x3, dictionaryName: b["getDictionaryName"]() }),
-    _0x2c5cda = new s({ position: { x: n[_0x28b1e8(0x219)] / 0x2, y: n[_0x28b1e8(0x1d6)] }, radius: 0x7d }),
-    _0x54c05f = new e(),
-    _0x3bd87c = b[_0x28b1e8(0x192)]();
-  (h[_0x28b1e8(0x18f)] = _0x59d35f[_0x28b1e8(0x16d)]()), (d["innerHTML"] = _0x59d35f[_0x28b1e8(0x17c)]());
-  const _0x172300 = [],
-    _0x5aefa5 = [];
-  let _0x324f36;
-  const _0x12aa76 = window[_0x28b1e8(0x151)](() => {
-    const _0x41ad5a = _0x28b1e8,
-      _0x496253 = Math[_0x41ad5a(0x141)]() * n[_0x41ad5a(0x219)],
-      _0x41c20f = Math[_0x41ad5a(0x1e5)](Math[_0x41ad5a(0x141)]() * _0x3bd87c[_0x41ad5a(0x232)]),
-      _0x2d22c0 = [];
-    for (let _0x4c48ed = _0x172300[_0x41ad5a(0x232)] - 0x1; _0x4c48ed >= 0x0; _0x4c48ed--) {
-      const _0x459629 = _0x172300[_0x4c48ed];
-      _0x2d22c0["includes"](_0x459629["text"]) || _0x2d22c0["push"](_0x459629[_0x41ad5a(0x200)]);
+  const _0x26c0dd = _0x34fbf1;
+  if (_0x26c0dd(0x20d) !== p[_0x26c0dd(0x1e9)]) return;
+  (n["style"]["display"] = _0x26c0dd(0x192)),
+    (r[_0x26c0dd(0x1ed)][_0x26c0dd(0x191)] = "none"),
+    (g["style"][_0x26c0dd(0x191)] = "none"),
+    (f[_0x26c0dd(0x1ed)]["display"] = _0x26c0dd(0x180)),
+    (a[_0x26c0dd(0x1ed)][_0x26c0dd(0x191)] = _0x26c0dd(0x192)),
+    (c[_0x26c0dd(0x1ed)][_0x26c0dd(0x191)] = _0x26c0dd(0x192));
+  const _0x17b620 = new i({ scores: 0x0, lives: 0x3, dictionaryName: b[_0x26c0dd(0x1a4)]() }),
+    _0x8f1111 = new s({ position: { x: n[_0x26c0dd(0x1b0)] / 0x2, y: n[_0x26c0dd(0x13d)] }, radius: 0x7d }),
+    _0x49e037 = new e(),
+    _0x420e92 = b[_0x26c0dd(0x15e)]();
+  (h[_0x26c0dd(0x1e9)] = _0x17b620["getScores"]()), (d[_0x26c0dd(0x1e9)] = _0x17b620[_0x26c0dd(0x175)]());
+  const _0x178362 = [],
+    _0xfbfbdc = [];
+  let _0x346b7d;
+  const _0x49863b = window[_0x26c0dd(0x137)](() => {
+    const _0x34f04e = _0x26c0dd,
+      _0x481e00 = Math[_0x34f04e(0x17f)]() * n["width"],
+      _0x6013fa = Math[_0x34f04e(0x1a8)](Math[_0x34f04e(0x17f)]() * _0x420e92[_0x34f04e(0x145)]),
+      _0x2210f5 = [];
+    for (let _0x494270 = _0x178362[_0x34f04e(0x145)] - 0x1; _0x494270 >= 0x0; _0x494270--) {
+      const _0x53c1a9 = _0x178362[_0x494270];
+      _0x2210f5[_0x34f04e(0x1ee)](_0x53c1a9[_0x34f04e(0x182)]) || _0x2210f5[_0x34f04e(0x1be)](_0x53c1a9[_0x34f04e(0x182)]);
     }
-    !_0x2d22c0[_0x41ad5a(0x1d7)](_0x3bd87c[_0x41c20f]) &&
-      _0x496253 > 0x32 &&
-      _0x496253 < n["width"] - 0x46 &&
-      _0x172300[_0x41ad5a(0x17d)](
-        new t({ position: { x: _0x496253, y: -0x32 }, velocity: { x: 0x0, y: 0x1 }, text: _0x3bd87c[_0x41c20f] })
+    !_0x2210f5["includes"](_0x420e92[_0x6013fa]) &&
+      _0x481e00 > 0x32 &&
+      _0x481e00 < n[_0x34f04e(0x1b0)] - 0x46 &&
+      _0x178362["push"](
+        new t({ position: { x: _0x481e00, y: -0x32 }, velocity: { x: 0x0, y: 0x1 }, text: _0x420e92[_0x6013fa] })
       );
   }, 0x3e8);
-  function _0x23b9f3(_0x27cc7a) {
-    const _0x281f8d = _0x28b1e8;
-    for (let _0x2530a1 = _0x172300[_0x281f8d(0x232)] - 0x1; _0x2530a1 >= 0x0; _0x2530a1--) {
-      const _0x415062 = _0x172300[_0x2530a1];
-      _0x415062[_0x281f8d(0x200)][_0x415062[_0x281f8d(0x13e)]][_0x281f8d(0x1a5)]() === _0x27cc7a["toLowerCase"]() &&
-        ((_0xafabff = _0x415062),
-        _0x5aefa5[_0x281f8d(0x17d)](
+  function _0x9af01e(_0x54586d) {
+    const _0x5558a2 = _0x26c0dd;
+    for (let _0x4825d9 = _0x178362[_0x5558a2(0x145)] - 0x1; _0x4825d9 >= 0x0; _0x4825d9--) {
+      const _0x2174f4 = _0x178362[_0x4825d9];
+      _0x2174f4["text"][_0x2174f4[_0x5558a2(0x19e)]][_0x5558a2(0x162)]() === _0x54586d[_0x5558a2(0x162)]() &&
+        ((_0x5d93eb = _0x2174f4),
+        _0xfbfbdc["push"](
           new o({
-            position: { x: _0x2c5cda["position"]["x"], y: _0x2c5cda[_0x281f8d(0x21b)]["y"] },
+            position: { x: _0x8f1111[_0x5558a2(0x149)]["x"], y: _0x8f1111[_0x5558a2(0x149)]["y"] },
             velocity: {
-              x: 0x2bc * _0x4d8742({ x: _0x2c5cda[_0x281f8d(0x21b)]["x"], y: _0x2c5cda[_0x281f8d(0x21b)]["y"] }, _0xafabff),
-              y: 0x2bc * _0x389bac({ x: _0x2c5cda[_0x281f8d(0x21b)]["x"], y: _0x2c5cda[_0x281f8d(0x21b)]["y"] }, _0xafabff),
+              x: 0x2bc * _0xc017f8({ x: _0x8f1111[_0x5558a2(0x149)]["x"], y: _0x8f1111["position"]["y"] }, _0x5d93eb),
+              y: 0x2bc * _0x583d76({ x: _0x8f1111[_0x5558a2(0x149)]["x"], y: _0x8f1111[_0x5558a2(0x149)]["y"] }, _0x5d93eb),
             },
-            rotation: _0x4d8742({ x: _0x2c5cda[_0x281f8d(0x21b)]["x"], y: _0x2c5cda[_0x281f8d(0x21b)]["y"] }, _0xafabff),
+            rotation: _0xc017f8({ x: _0x8f1111[_0x5558a2(0x149)]["x"], y: _0x8f1111[_0x5558a2(0x149)]["y"] }, _0x5d93eb),
           })
         ),
-        _0x415062[_0x281f8d(0x21a)](),
-        _0x415062[_0x281f8d(0x218)]());
+        _0x2174f4[_0x5558a2(0x152)](),
+        _0x2174f4[_0x5558a2(0x172)]());
     }
-    var _0xafabff;
+    var _0x5d93eb;
   }
-  function _0x4d8742(_0x4630a1, _0xe00bb5) {
-    const _0x201519 = _0x28b1e8,
-      _0x3237a3 = _0xe00bb5[_0x201519(0x21b)]["x"] - _0x4630a1["x"],
-      _0x2b43e0 = _0xe00bb5[_0x201519(0x21b)]["y"] - _0x4630a1["y"];
-    return _0x3237a3 / Math[_0x201519(0x1d4)](_0x3237a3 * _0x3237a3 + _0x2b43e0 * _0x2b43e0);
+  function _0xc017f8(_0x28547e, _0x2bb843) {
+    const _0x4db575 = _0x26c0dd,
+      _0x387551 = _0x2bb843[_0x4db575(0x149)]["x"] - _0x28547e["x"],
+      _0x27ea57 = _0x2bb843["position"]["y"] - _0x28547e["y"];
+    return _0x387551 / Math["sqrt"](_0x387551 * _0x387551 + _0x27ea57 * _0x27ea57);
   }
-  function _0x389bac(_0x3f75ac, _0x1b9971) {
-    const _0x2ec705 = _0x28b1e8,
-      _0x12c02a = _0x1b9971[_0x2ec705(0x21b)]["x"] - _0x3f75ac["x"],
-      _0x2d3fb7 = _0x1b9971[_0x2ec705(0x21b)]["y"] - _0x3f75ac["y"];
-    return _0x2d3fb7 / Math["sqrt"](_0x12c02a * _0x12c02a + _0x2d3fb7 * _0x2d3fb7);
+  function _0x583d76(_0x1e28e0, _0x4ac217) {
+    const _0x440d3d = _0x26c0dd,
+      _0x3a7a4f = _0x4ac217["position"]["x"] - _0x1e28e0["x"],
+      _0x12b80d = _0x4ac217["position"]["y"] - _0x1e28e0["y"];
+    return _0x12b80d / Math[_0x440d3d(0x184)](_0x3a7a4f * _0x3a7a4f + _0x12b80d * _0x12b80d);
   }
-  !(function _0x56030d() {
-    const _0x18ea79 = _0x28b1e8;
-    (_0x324f36 = window["requestAnimationFrame"](_0x56030d)),
-      (l["fillStyle"] = "rgba(5,\x2022,\x2026,\x200.2)"),
-      l["fillRect"](0x0, 0x0, n[_0x18ea79(0x219)], n[_0x18ea79(0x1d6)]),
-      _0x2c5cda[_0x18ea79(0x181)](),
-      _0x59d35f[_0x18ea79(0x18c)]();
-    for (let _0xcca6f8 = _0x5aefa5["length"] - 0x1; _0xcca6f8 >= 0x0; _0xcca6f8--) {
-      const _0x2fec46 = _0x5aefa5[_0xcca6f8];
-      _0x2fec46[_0x18ea79(0x18c)](),
-        _0x2c5cda["draw"](),
-        _0x2c5cda[_0x18ea79(0x220)](),
-        _0x2fec46[_0x18ea79(0x21b)]["y"] < 0x0 && _0x5aefa5[_0x18ea79(0x1f1)](_0xcca6f8, 0x1);
+  !(function _0x391344() {
+    const _0xbae179 = _0x26c0dd;
+    (_0x346b7d = window[_0xbae179(0x205)](_0x391344)),
+      (l[_0xbae179(0x1b5)] = _0xbae179(0x1c6)),
+      l[_0xbae179(0x154)](0x0, 0x0, n[_0xbae179(0x1b0)], n[_0xbae179(0x13d)]),
+      _0x8f1111["draw"](),
+      _0x17b620[_0xbae179(0x1a7)]();
+    for (let _0x862320 = _0xfbfbdc[_0xbae179(0x145)] - 0x1; _0x862320 >= 0x0; _0x862320--) {
+      const _0x18bdb0 = _0xfbfbdc[_0x862320];
+      _0x18bdb0[_0xbae179(0x1a7)](),
+        _0x8f1111[_0xbae179(0x13e)](),
+        _0x8f1111[_0xbae179(0x14e)](),
+        _0x18bdb0["position"]["y"] < 0x0 && _0xfbfbdc["splice"](_0x862320, 0x1);
     }
-    for (let _0x55f794 = _0x172300[_0x18ea79(0x232)] - 0x1; _0x55f794 >= 0x0; _0x55f794--) {
-      const _0x1d0384 = _0x172300[_0x55f794];
-      _0x1d0384["update"](),
-        _0x54c05f["update"](),
-        _0x1d0384[_0x18ea79(0x21b)]["y"] > n[_0x18ea79(0x1d6)] - 0x1e &&
-          (_0x59d35f[_0x18ea79(0x1a3)](),
-          _0x172300[_0x18ea79(0x1f1)](_0x55f794, 0x1),
-          _0x59d35f[_0x18ea79(0x233)](-0x1),
-          _0x59d35f[_0x18ea79(0x17c)]()
-            ? (d[_0x18ea79(0x18f)] = _0x59d35f[_0x18ea79(0x17c)]())
-            : I(_0x324f36, _0x12aa76, _0x59d35f)),
-        _0x1d0384[_0x18ea79(0x13e)] === _0x1d0384[_0x18ea79(0x200)][_0x18ea79(0x232)] &&
-          (_0x172300["splice"](_0x55f794, 0x1),
-          _0x59d35f[_0x18ea79(0x1da)](_0x1d0384[_0x18ea79(0x200)]["length"]),
-          (h[_0x18ea79(0x18f)] = _0x59d35f[_0x18ea79(0x16d)]()));
+    for (let _0x248fee = _0x178362[_0xbae179(0x145)] - 0x1; _0x248fee >= 0x0; _0x248fee--) {
+      const _0xec428c = _0x178362[_0x248fee];
+      _0xec428c[_0xbae179(0x1a7)](),
+        _0x49e037[_0xbae179(0x1a7)](),
+        _0xec428c[_0xbae179(0x149)]["y"] > n[_0xbae179(0x13d)] - 0x1e &&
+          (_0x17b620[_0xbae179(0x14a)](),
+          _0x178362[_0xbae179(0x1c2)](_0x248fee, 0x1),
+          _0x17b620[_0xbae179(0x138)](-0x1),
+          _0x17b620["getLives"]() ? (d[_0xbae179(0x1e9)] = _0x17b620[_0xbae179(0x175)]()) : I(_0x346b7d, _0x49863b, _0x17b620)),
+        _0xec428c[_0xbae179(0x19e)] === _0xec428c["text"][_0xbae179(0x145)] &&
+          (_0x178362[_0xbae179(0x1c2)](_0x248fee, 0x1),
+          _0x17b620[_0xbae179(0x161)](_0xec428c["text"]["length"]),
+          (h[_0xbae179(0x1e9)] = _0x17b620[_0xbae179(0x1a0)]()));
     }
   })();
-  const _0x4582d7 = [
-    _0x28b1e8(0x18b),
-    _0x28b1e8(0x1b6),
-    _0x28b1e8(0x21d),
-    _0x28b1e8(0x1ce),
-    _0x28b1e8(0x17b),
-    "KeyY",
-    _0x28b1e8(0x189),
-    _0x28b1e8(0x158),
-    _0x28b1e8(0x194),
-    _0x28b1e8(0x1df),
-    _0x28b1e8(0x16c),
-    _0x28b1e8(0x1b7),
-    _0x28b1e8(0x1dc),
-    _0x28b1e8(0x157),
+  const _0x284cb3 = [
+    _0x26c0dd(0x19b),
+    _0x26c0dd(0x1dc),
+    _0x26c0dd(0x1aa),
+    _0x26c0dd(0x157),
+    _0x26c0dd(0x1c7),
+    _0x26c0dd(0x1cd),
+    _0x26c0dd(0x146),
+    _0x26c0dd(0x156),
+    _0x26c0dd(0x16a),
+    _0x26c0dd(0x1ac),
+    _0x26c0dd(0x1e0),
+    _0x26c0dd(0x15a),
+    _0x26c0dd(0x1b9),
+    "KeyF",
     "KeyG",
-    _0x28b1e8(0x1e2),
-    _0x28b1e8(0x231),
-    _0x28b1e8(0x166),
-    _0x28b1e8(0x156),
-    _0x28b1e8(0x146),
-    _0x28b1e8(0x1ac),
-    _0x28b1e8(0x13c),
-    _0x28b1e8(0x1a0),
-    _0x28b1e8(0x1c0),
-    _0x28b1e8(0x15d),
-    "KeyM",
+    "KeyH",
+    "KeyJ",
+    "KeyK",
+    "KeyL",
+    "KeyZ",
+    _0x26c0dd(0x20c),
+    _0x26c0dd(0x13b),
+    _0x26c0dd(0x1df),
+    _0x26c0dd(0x153),
+    _0x26c0dd(0x1da),
+    _0x26c0dd(0x15b),
   ];
-  window[_0x28b1e8(0x1cf)](_0x28b1e8(0x1a1), (_0x2ff046) => {
-    const _0x422a2d = _0x28b1e8;
+  window[_0x26c0dd(0x199)]("keydown", (_0x1cc90a) => {
+    const _0x3789b3 = _0x26c0dd;
     switch (
-      (_0x4582d7[_0x422a2d(0x1d7)](_0x2ff046[_0x422a2d(0x148)]) && _0x23b9f3(_0x2ff046[_0x422a2d(0x148)][0x3]), _0x2ff046["code"])
+      (_0x284cb3[_0x3789b3(0x1ee)](_0x1cc90a[_0x3789b3(0x143)]) && _0x9af01e(_0x1cc90a[_0x3789b3(0x143)][0x3]),
+      _0x1cc90a[_0x3789b3(0x143)])
     ) {
-      case _0x422a2d(0x210):
-        _0x23b9f3("0");
+      case _0x3789b3(0x148):
+        _0x9af01e("0");
         break;
-      case _0x422a2d(0x1ae):
-        _0x23b9f3("5");
+      case _0x3789b3(0x170):
+        _0x9af01e("5");
         break;
-      case _0x422a2d(0x1c2):
-        console[_0x422a2d(0x1af)]("Hello\x20there!");
+      case _0x3789b3(0x189):
+        console[_0x3789b3(0x1ce)](_0x3789b3(0x160));
     }
   }),
-    c[_0x28b1e8(0x1cf)](_0x28b1e8(0x1aa), function _0x49ea5a() {
-      const _0x968e06 = _0x28b1e8;
-      return window[_0x968e06(0x191)](_0x324f36), clearInterval(_0x12aa76), L(), c[_0x968e06(0x1a7)](_0x968e06(0x1aa), _0x49ea5a);
+    c["addEventListener"](_0x26c0dd(0x1ec), function _0x15dacb() {
+      const _0x378b79 = _0x26c0dd;
+      return (
+        window[_0x378b79(0x16c)](_0x346b7d), clearInterval(_0x49863b), L(), c["removeEventListener"](_0x378b79(0x1ec), _0x15dacb)
+      );
     });
 }
-function I(_0x9c1d9a, _0x182ab7, _0x278f15) {
-  const _0x4bdc2a = _0x5c0682;
-  window[_0x4bdc2a(0x191)](_0x9c1d9a),
-    clearInterval(_0x182ab7),
-    (f[_0x4bdc2a(0x1bf)]["display"] = "flex"),
-    (x[_0x4bdc2a(0x18f)] = _0x278f15[_0x4bdc2a(0x16d)]()),
-    (v["innerHTML"] = _0x278f15[_0x4bdc2a(0x1d3)]()),
-    (a[_0x4bdc2a(0x1bf)][_0x4bdc2a(0x15a)] = _0x4bdc2a(0x1f2)),
-    (c[_0x4bdc2a(0x1bf)][_0x4bdc2a(0x15a)] = _0x4bdc2a(0x1f2));
+function I(_0x432ee1, _0x4f34b6, _0x8049a7) {
+  const _0x5cad1e = _0x34fbf1;
+  window[_0x5cad1e(0x16c)](_0x432ee1),
+    clearInterval(_0x4f34b6),
+    (f["style"][_0x5cad1e(0x191)] = _0x5cad1e(0x208)),
+    (x[_0x5cad1e(0x1e9)] = _0x8049a7[_0x5cad1e(0x1a0)]()),
+    (v[_0x5cad1e(0x1e9)] = _0x8049a7["getHighScore"]()),
+    (a[_0x5cad1e(0x1ed)]["display"] = _0x5cad1e(0x180)),
+    (c[_0x5cad1e(0x1ed)]["display"] = _0x5cad1e(0x180));
 }
-function B(_0x464592, _0x3d5019, _0x5ce077) {
-  const _0x55d4ff = _0x5c0682;
-  _0x464592[_0x55d4ff(0x147)][_0x55d4ff(0x1de)]("animation-fade"),
+function _0xd3e5() {
+  const _0x3126a4 = [
+    "add",
+    "getDictionaryName",
+    "desktop",
+    "rotate",
+    "update",
+    "floor",
+    "javascript",
+    "KeyE",
+    "hitText",
+    "KeyP",
+    "Ravager",
+    "tag",
+    "9HEDKlf",
+    "width",
+    "playBtn",
+    "__lives",
+    "6323796ZQIQxE",
+    "Warlock",
+    "fillStyle",
+    "infoTable",
+    "Collector",
+    "Star",
+    "KeyD",
+    "Sword",
+    "playAgainBtn",
+    "querySelector",
+    "Orb",
+    "push",
+    "__scores",
+    "Dance",
+    "fill",
+    "splice",
+    "shootShadowColor",
+    "#294d61",
+    "16863824clAXZM",
+    "rgba(5,\x2022,\x2026,\x200.2)",
+    "KeyT",
+    "Ego",
+    "lineWidth",
+    "pointer",
+    "Nebula",
+    "django",
+    "KeyY",
+    "log",
+    "#6da5c0",
+    "cs50",
+    "science",
+    "5QLrgts",
+    "measureText",
+    "gray",
+    "__chosenDictionary",
+    "__isBubbleMissed",
+    "Yondu",
+    "form",
+    "setChosenDictionary",
+    "KeyN",
+    "innerWidth",
+    "KeyW",
+    "section",
+    "beginPath",
+    "KeyV",
+    "KeyA",
+    "\x20<span\x20class=\x22new-record-badge\x22>New\x20record!</span>",
+    "ellipse",
+    "classList",
+    "value",
+    "sort",
+    "line",
+    "long",
+    "Nova",
+    "innerHTML",
+    "Lorem",
+    "font",
+    "click",
+    "style",
+    "includes",
+    "Retro",
+    "gallery",
+    "like",
+    "infoScores",
+    "gameOverHighest",
+    "#EC9704",
+    "background",
+    "arc",
+    "remove",
+    "lives",
+    "else",
+    "8347080hSnaCH",
+    "halloween",
+    "__highScore",
+    "industry",
+    "destroyedStrokeStyle",
+    "flask",
+    "CSS",
+    "<option\x20value=\x22",
+    "getHighScore",
+    "merge",
+    "Stone",
+    "requestAnimationFrame",
+    "fiftyville",
+    "Ipsum",
+    "flex",
+    "heap",
+    "normalStrokeStyle",
+    "dictionary",
+    "KeyX",
+    "Bogdan\x20Shologin",
+    "3838516SlFCeE",
+    "Soul",
+    "shadowColor",
+    "Tower",
+    "bold\x2018px\x20Arial",
+    "dictionarySelect",
+    "and",
+    "finance",
+    "positionY",
+    "_high_score",
+    "2035044reGEKS",
+    "fillText",
+    "TCP",
+    "Mix",
+    "#b51a2b",
+    "setInterval",
+    "setLives",
+    "aboutBtn",
+    "save",
+    "KeyC",
+    "restore",
+    "height",
+    "draw",
+    "translate",
+    "stroke",
+    "velocityY",
+    "ever",
+    "code",
+    "1003323dibuMh",
+    "length",
+    "KeyU",
+    "array",
+    "Digit0",
+    "position",
+    "bubbleMissed",
+    "git",
+    "radius",
+    "the",
+    "shootEffect",
+    "mainMenuTable",
+    "Guardians",
+    "__dictionaries",
+    "increaseLetterIndex",
+    "KeyB",
+    "fillRect",
+    "gameOverTable",
+    "KeyI",
+    "KeyR",
+    "Ronan",
+    "mario",
+    "KeyS",
+    "KeyM",
+    "memory",
+    "setItem",
+    "getDictionary",
+    "Love",
+    "Hello\x20there!",
+    "setScores",
+    "toLowerCase",
+    "python",
+    "__dictionaryName",
+    "shadowBlur",
+    "shadowOffset",
+    "leap",
+    "normalShadowColor",
+    "aboutBadge",
+    "KeyO",
+    "day",
+    "cancelAnimationFrame",
+    "Lord",
+    "simply",
+    "bubble",
+    "Digit5",
+    "hitShadowColor",
+    "changeColor",
+    "queue",
+    "Milano",
+    "getLives",
+    "closeAboutBtn",
+    "rgba(6,\x2088,\x2047,\x200.02)",
+    "Dictionary\x20wasn\x27t\x20set:\x20",
+    "Infinity",
+    "debug",
+    "shadowOffsetY",
+    "animation-appear",
+    "Drax",
+    "canvasMenuLinkBtn",
+    "random",
+    "none",
+    "normalText",
+    "text",
+    "Cosmo",
+    "sqrt",
+    "author",
+    "strokeRect",
+    "1276033EKUXrJ",
+    "Planet",
+    "Space",
+    "Arrow",
+    "book",
+    "destroyedShadowColor",
+    "red",
+    "strokeStyle",
+    "page",
+    "velocity",
+    "display",
+    "block",
+    "<svg\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fill=\x22none\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20viewBox=\x220\x200\x2024\x2024\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-width=\x221.5\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke=\x22#EC9704\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x22info-fire-icon\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-linecap=\x22round\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-linejoin=\x22round\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20d=\x22M15.362\x205.214A8.252\x208.252\x200\x200112\x2021\x208.25\x208.25\x200\x20016.038\x207.048\x208.287\x208.287\x200\x20009\x209.6a8.983\x208.983\x200\x20013.361-6.867\x208.21\x208.21\x200\x20003\x202.48z\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-linecap=\x22round\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-linejoin=\x22round\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20d=\x22M12\x2018a3.75\x203.75\x200\x2000.495-7.467\x205.99\x205.99\x200\x2000-1.925\x203.546\x205.974\x205.974\x200\x2001-2.133-1A3.75\x203.75\x200\x200012\x2018z\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</svg>",
+    "Gamora",
+    "dracula",
+    "</option>",
+    "white",
+    "rotation",
+    "addEventListener",
+    "closePath",
+    "KeyQ",
+    "#fbe4d8",
+    "Quill",
+    "letterIndex",
+    "hitStrokeStyle",
+    "getScores",
+    "getElementById",
+    "since",
+  ];
+  _0xd3e5 = function () {
+    return _0x3126a4;
+  };
+  return _0xd3e5();
+}
+function B(_0x278cef, _0x1ab3b3, _0x4c211b) {
+  const _0x1e9e15 = _0x34fbf1;
+  _0x278cef[_0x1e9e15(0x1e3)][_0x1e9e15(0x1a3)]("animation-fade"),
     setTimeout(() => {
-      const _0x58ff49 = _0x55d4ff;
-      _0x464592["classList"]["remove"](_0x58ff49(0x1eb)),
-        (_0x464592["style"][_0x58ff49(0x15a)] = _0x58ff49(0x1f2)),
-        (_0x3d5019[_0x58ff49(0x1bf)][_0x58ff49(0x15a)] = "flex"),
-        _0x3d5019["classList"]["add"](_0x58ff49(0x211)),
+      const _0xafddbf = _0x1e9e15;
+      _0x278cef[_0xafddbf(0x1e3)][_0xafddbf(0x1f7)]("animation-fade"),
+        (_0x278cef[_0xafddbf(0x1ed)][_0xafddbf(0x191)] = _0xafddbf(0x180)),
+        (_0x1ab3b3[_0xafddbf(0x1ed)][_0xafddbf(0x191)] = _0xafddbf(0x208)),
+        _0x1ab3b3[_0xafddbf(0x1e3)][_0xafddbf(0x1a3)](_0xafddbf(0x17c)),
         setTimeout(() => {
-          const _0x215ca7 = _0x58ff49;
-          _0x3d5019["classList"]["remove"](_0x215ca7(0x211));
-        }, _0x5ce077);
-    }, _0x5ce077);
+          const _0x139437 = _0xafddbf;
+          _0x1ab3b3[_0x139437(0x1e3)][_0x139437(0x1f7)](_0x139437(0x17c));
+        }, _0x4c211b);
+    }, _0x4c211b);
 }
-m[_0x5c0682(0x1cf)](_0x5c0682(0x152), (_0x2414ce) => {
-  const _0x50c51e = _0x5c0682;
-  b["setChosenDictionary"](_0x2414ce[_0x50c51e(0x19d)][_0x50c51e(0x163)]) || console[_0x50c51e(0x1af)](_0x50c51e(0x1f0));
+m[_0x34fbf1(0x199)]("change", (_0x183a80) => {
+  const _0x208d14 = _0x34fbf1;
+  b[_0x208d14(0x1d9)](_0x183a80["target"][_0x208d14(0x1e4)]) || console[_0x208d14(0x1ce)]("Set\x20wrong\x20dictionary");
 }),
   L(),
-  y[_0x5c0682(0x1cf)](_0x5c0682(0x1aa), C),
-  _[_0x5c0682(0x1cf)]("click", C),
-  k[_0x5c0682(0x1cf)](_0x5c0682(0x1aa), L),
-  u[_0x5c0682(0x1cf)](_0x5c0682(0x1aa), () => B(g, w, 0x12c)),
-  S[_0x5c0682(0x1cf)]("click", () => B(w, g, 0x12c));
+  y[_0x34fbf1(0x199)](_0x34fbf1(0x1ec), C),
+  _[_0x34fbf1(0x199)]("click", C),
+  k[_0x34fbf1(0x199)](_0x34fbf1(0x1ec), L),
+  u[_0x34fbf1(0x199)]("click", () => B(g, w, 0x12c)),
+  S["addEventListener"](_0x34fbf1(0x1ec), () => B(w, g, 0x12c));
