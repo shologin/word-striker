@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Word Striker</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="background.css" />
   </head>
   <body>
     <div class="game prevent-select">
@@ -62,6 +63,8 @@
         <div class="about-badge-content">
           <div class="about-badge-description">
             <p>Boost up your typing skills with this game. Shoot the words as they appears.</p>
+            <p>To shoot the words type then on your keyboard. Each hit word increases your score count.</p>
+            <div class="about-separator"></div>
             <p>If you have any suggestions about the game, feel free to contact me.</p>
             <div class="about-badge-credentials">
               <h4>Credits:</h4>
@@ -83,7 +86,7 @@
           <div class="about-badge-info">
             <div>
               <h4>Word Striker</h4>
-              <p>Version 1.1</p>
+              <p>Version 1.2</p>
             </div>
             <div>
               <a href="https://www.linkedin.com/in/shologin" target="_blank" rel="noopener noreferrer nofollow">
@@ -127,7 +130,15 @@
       <span></span>
       <span></span>
       <span></span>
-    </div>    
+    </div>
+    <script src="./classes/DictionariesManager.js"></script>
+    <script src="./classes/Interface.js"></script>
+    <script src="./classes/Freezer.js"></script>
+    <script src="./classes/Player.js"></script>
+    <script src="./classes/Bubble.js"></script>
+    <script src="./classes/Projectile.js"></script>
+    <script src="./classes/Cleaner.js"></script>
+    <script src="./dictionaries.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
